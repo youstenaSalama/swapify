@@ -1,0 +1,100 @@
+.id10 {
+  flex: 1;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.table-cell1117,
+.table-cell1118 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xl);
+}
+.table-cell1117 {
+  width: 113px;
+  box-sizing: border-box;
+}
+.table-cell1118 {
+  flex: 1;
+}
+.category {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.table-header-row34 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--color-lavender);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl) 0 var(--padding-base);
+  font-size: var(--light-basic-typography-paragraph-small-size);
+  color: var(--neutral-color-300);
+}
+.div254 {
+  text-transform: uppercase;
+}
+.div254,
+.joseph-wheeler56 {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.pending {
+  position: relative;
+  line-height: 14px;
+  font-weight: 600;
+}
+.table-cell1129 {
+  flex: 1;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-xl);
+  color: var(--color-gold);
+}
+.table-cell1129,
+.table-cell1130,
+.table-header-row35,
+.table-header-row36 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.table-cell1130 {
+  flex: 1;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-xl);
+}
+.table-header-row35,
+.table-header-row36 {
+  border-bottom: 1px solid var(--color-lavender);
+  justify-content: center;
+  padding: 0 var(--padding-5xl) 0 var(--padding-base);
+}
+.table-header-row36 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.table34 {
+  position: absolute;
+  width: calc(100% - 312px);
+  top: 214px;
+  right: 20px;
+  left: 292px;
+  border-radius: var(--br-base);
+  background-color: var(--light-solid-color-extra-card-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--light-basic-typography-paragraph-medium-size);
+  color: var(--brand-color-400);
+  font-family: var(--light-basic-typography-paragraph-small);
+}

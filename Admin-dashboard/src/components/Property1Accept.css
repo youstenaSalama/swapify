@@ -1,0 +1,28 @@
+.icon-park-solidcorrect {
+  width: 15px;
+  position: relative;
+  height: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.accept {
+  position: relative;
+  font-weight: 500;
+}
+.property-1accept {
+  border-radius: var(--br-8xs);
+  background-color: var(--success-color-400);
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+  text-align: left;
+  font-size: var(--mobile-h8-medium-12-size);
+  color: var(--light-solid-color-extra-card-background);
+  font-family: var(--dashboard-h4-regular-24);
+  flex: 1;
+}

@@ -1,0 +1,68 @@
+.background-icon {
+  position: absolute;
+  height: calc(100% + 8px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -8px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.login-form {
+  position: absolute;
+  width: calc(100% - 699px);
+  top: 96px;
+  right: 99px;
+  left: 600px;
+  border-radius: 30px;
+  background-color: var(--light-solid-color-extra-card-background);
+  height: 839px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 63px 105px;
+  box-sizing: border-box;
+}
+.enter-your-info,
+.hello1 {
+  align-self: stretch;
+  position: relative;
+}
+.hello1 {
+  font-weight: 600;
+}
+.enter-your-info {
+  font-size: var(--dashboard-h4-regular-24-size);
+}
+.hello,
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hello {
+  align-self: stretch;
+  gap: 11px;
+}
+.sign-up {
+  position: absolute;
+  top: calc(50% - 65px);
+  left: 99px;
+  width: 409px;
+}
+.log-in {
+  width: 100%;
+  position: relative;
+  background-color: var(--light-solid-color-extra-card-background);
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--dashboard-h1-semibold-32-size);
+  color: var(--neutral-color-200);
+  font-family: var(--dashboard-h4-regular-24);
+}

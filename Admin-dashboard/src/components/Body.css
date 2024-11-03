@@ -1,0 +1,79 @@
+.l9ppriiql-1 {
+  width: 26px;
+  position: relative;
+  height: 34px;
+}
+.sony-dualsense {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-3xs);
+}
+.text168,
+.text169 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.text169 {
+  font-size: var(--mobile-h8-medium-12-size);
+  font-weight: 500;
+  color: var(--neutral-color-300);
+}
+.text167 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text170 {
+  position: relative;
+  font-size: var(--mobile-h6-regular-14-size);
+  font-weight: 500;
+  color: var(--brand-color-300);
+  text-align: right;
+}
+.list71 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.apple-watch {
+  width: 46px;
+  position: relative;
+  height: 46px;
+}
+.screenshot-2022-08-24-at-807 {
+  width: 40px;
+  position: relative;
+  height: 26px;
+}
+.sony-dualsense1 {
+  padding: var(--padding-3xs) var(--padding-10xs);
+}
+.body7,
+.sony-dualsense1,
+.text-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-parent {
+  align-self: stretch;
+}
+.body7 {
+  width: 358px;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--light-basic-typography-paragraph-medium-size);
+  color: var(--brand-color-400);
+  font-family: var(--dashboard-h4-regular-24);
+}

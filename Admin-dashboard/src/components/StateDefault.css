@@ -1,0 +1,20 @@
+.login4 {
+  position: relative;
+  font-weight: 600;
+}
+.statedefault {
+  width: 309px;
+  border-radius: var(--br-5xs);
+  background-color: var(--brand-color-300);
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--dashboard-h6-regular-16-size);
+  color: var(--light-solid-color-extra-card-background);
+  font-family: var(--dashboard-h4-regular-24);
+}

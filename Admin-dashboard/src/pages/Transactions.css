@@ -1,0 +1,64 @@
+.text70 {
+  flex: 1;
+  position: relative;
+}
+.mingcutesearch-line-icon2 {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.form3 {
+  position: absolute;
+  top: 142px;
+  left: 304px;
+  border-radius: var(--br-5xs);
+  background-color: var(--light-solid-color-extra-card-background);
+  width: 243px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.text71 {
+  position: relative;
+}
+.chevron-down-icon8 {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+.dropdown3 {
+  position: absolute;
+  height: 3.7%;
+  width: 14.58%;
+  top: 13.15%;
+  right: 1.42%;
+  bottom: 83.15%;
+  left: 83.99%;
+  border-radius: var(--br-5xs);
+  background-color: var(--light-solid-color-extra-card-background);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.transactions {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--dashboard-h6-regular-16-size);
+  color: var(--neutral-color-300);
+  font-family: var(--dashboard-h4-regular-24);
+}

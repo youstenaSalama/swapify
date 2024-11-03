@@ -1,0 +1,79 @@
+.text2 {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+}
+.mingcutesearch-line-icon1 {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.form1,
+.form2 {
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form2 {
+  flex: 1;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  gap: var(--gap-9xs);
+}
+.form1 {
+  position: absolute;
+  top: 359px;
+  left: 292px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  background-color: var(--light-solid-color-extra-card-background);
+  width: 218px;
+  height: 40px;
+  justify-content: center;
+}
+.text3 {
+  position: relative;
+  letter-spacing: 0.43px;
+  font-weight: 500;
+}
+.chevron-down-icon1 {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+.dropdown1,
+.dropdown2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown2 {
+  height: 40px;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.dropdown1 {
+  position: absolute;
+  top: 359px;
+  right: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  border-radius: var(--br-7xs);
+  background-color: var(--light-solid-color-extra-card-background);
+  overflow: hidden;
+}
+.customer-detail-transaction {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  height: 1132px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--light-basic-typography-paragraph-medium-size);
+  color: var(--neutral-color-300);
+  font-family: var(--dashboard-h4-regular-24);
+}

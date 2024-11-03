@@ -1,0 +1,69 @@
+.text {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+}
+.mingcutesearch-line-icon {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.form {
+  position: absolute;
+  height: 3.7%;
+  top: 13.15%;
+  bottom: 83.15%;
+  left: calc(50% - 416px);
+  border-radius: var(--br-5xs);
+  background-color: var(--light-solid-color-extra-card-background);
+  width: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.text1 {
+  position: relative;
+  letter-spacing: 0.43px;
+  font-weight: 500;
+}
+.chevron-down-icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+.dropdown {
+  position: absolute;
+  height: 3.7%;
+  width: 13.82%;
+  top: 13.15%;
+  right: 1.81%;
+  bottom: 83.15%;
+  left: 84.38%;
+  border-radius: var(--br-5xs);
+  background-color: var(--light-solid-color-extra-card-background);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.order-management-detail {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--light-basic-typography-paragraph-medium-size);
+  color: var(--color-lightslategray);
+  font-family: var(--light-basic-typography-paragraph-small);
+}

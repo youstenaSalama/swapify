@@ -1,0 +1,94 @@
+.div252 {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+}
+.table-cell1112 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-xl);
+}
+.user-photo-icon1 {
+  width: 32px;
+  position: relative;
+  border-radius: 50%;
+  height: 32px;
+  object-fit: cover;
+}
+.robert-fox1,
+.robertgmailcom1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.robert-fox1 {
+  font-weight: 600;
+}
+.robertgmailcom1 {
+  color: var(--neutral-color-300);
+  margin-top: -4px;
+}
+.robert-fox-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.table-cell1113,
+.text207 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text207 {
+  gap: var(--gap-5xs);
+  cursor: pointer;
+}
+.table-cell1113 {
+  padding: var(--padding-base) var(--padding-xl);
+}
+.div253 {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.table-cell1114 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-xl);
+}
+.trash-icon76 {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.table-cell1116,
+.table-row150 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.table-cell1116 {
+  flex: 1;
+  padding: var(--padding-smi) var(--padding-xl);
+}
+.table-row150 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--brand-color-100);
+  padding: 0 var(--padding-5xl) 0 var(--padding-base);
+  text-align: left;
+  font-size: var(--light-basic-typography-paragraph-medium-size);
+  color: var(--brand-color-400);
+  font-family: var(--light-basic-typography-paragraph-small);
+}

@@ -1,0 +1,119 @@
+.sign-in-to,
+.welcome-back {
+  align-self: stretch;
+  position: relative;
+}
+.welcome-back {
+  font-weight: 600;
+}
+.sign-in-to {
+  font-size: var(--dashboard-h6-regular-16-size);
+  color: var(--brand-color-300);
+}
+.header17 {
+  align-self: stretch;
+  height: 79px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.mdiemail-outline-icon {
+  width: 25px;
+  position: relative;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.email3 {
+  flex: 1;
+  position: relative;
+}
+.email-password,
+.email1,
+.input10 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.input10 {
+  border-radius: var(--br-3xs);
+  background-color: var(--neutral-color-200);
+  height: 50px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  font-size: var(--dashboard-h6-regular-16-size);
+  color: var(--neutral-color-300);
+}
+.email-password,
+.email1 {
+  height: 82px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.email-password {
+  height: 180px;
+  align-items: flex-start;
+}
+.forget-password {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--mobile-h1-semibold-18-size);
+  text-decoration: underline;
+}
+.ckeckbox-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--brand-color-400);
+  box-sizing: border-box;
+}
+.ckeckbox {
+  width: 25px;
+  height: 25px;
+}
+.ckeckbox,
+.keep-me-logged {
+  position: relative;
+}
+.info,
+.keep-me-logged-in,
+.login5 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.keep-me-logged-in {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  text-align: center;
+  font-size: var(--dashboard-h6-regular-16-size);
+}
+.info,
+.login5 {
+  flex-direction: column;
+}
+.info {
+  height: 402px;
+  justify-content: center;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--mobile-h1-semibold-20-size);
+}
+.login5 {
+  height: 608px;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--dashboard-h1-semibold-32-size);
+  color: var(--brand-color-400);
+  font-family: var(--dashboard-h4-regular-24);
+}

@@ -1,0 +1,208 @@
+.user-photo-icon {
+  width: 72px;
+  position: relative;
+  border-radius: 50%;
+  height: 72px;
+  object-fit: cover;
+}
+.robert-fox,
+.robertgmailcom {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.robert-fox {
+  font-weight: 600;
+}
+.robertgmailcom {
+  font-size: var(--light-basic-typography-paragraph-medium-size);
+  color: var(--neutral-color-300);
+}
+.info1,
+.user-info {
+  display: flex;
+  justify-content: center;
+}
+.info1 {
+  width: 149px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.user-info {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.break-line {
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--neutral-color-300);
+  box-sizing: border-box;
+  height: 140px;
+}
+.personal-information {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.contact-number {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.member-since {
+  margin: 0;
+}
+.contact-number-gender-container {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.info2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--mobile-h8-medium-12-size);
+  color: var(--brand-color-400);
+}
+.personal-info1 {
+  width: 282px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.personal-info-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  font-size: var(--mobile-h6-regular-14-size);
+  color: var(--neutral-color-300);
+}
+.address1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--neutral-color-300);
+}
+.address1,
+.b3,
+.nasr-city,
+.total-requests {
+  align-self: stretch;
+  position: relative;
+}
+.b3,
+.total-requests {
+  line-height: 22px;
+}
+.total-requests {
+  font-size: var(--light-basic-typography-paragraph-small-size);
+  letter-spacing: -0.02em;
+  line-height: 18px;
+  font-weight: 500;
+  color: var(--neutral-color-300);
+}
+.tab3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.address,
+.total-requestsposts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.total-requestsposts {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+  font-size: var(--dashboard-h4-regular-24-size);
+}
+.address {
+  width: 265px;
+  flex-direction: column;
+  gap: var(--gap-2xl);
+}
+.address-section,
+.user-info-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.address-section {
+  justify-content: center;
+  gap: var(--gap-5xl);
+  font-size: var(--light-basic-typography-paragraph-small-size);
+}
+.user-info-section {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 var(--padding-61xl);
+}
+.all-requests1 {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.all-requests,
+.posts1 {
+  border-radius: var(--br-7xs) 0 0 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+}
+.all-requests {
+  width: 141px;
+  border-bottom: 2px solid var(--brand-color-200);
+  display: flex;
+  align-items: center;
+}
+.posts1 {
+  width: 93px;
+  color: var(--neutral-color-300);
+}
+.nav-tabs,
+.posts1,
+.user-info-card {
+  display: flex;
+  align-items: center;
+}
+.nav-tabs {
+  align-self: stretch;
+  border-top: 1px solid var(--neutral-color-300);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  font-size: var(--light-basic-typography-paragraph-medium-size);
+  color: var(--brand-color-200);
+}
+.user-info-card {
+  position: absolute;
+  width: calc(100% - 314px);
+  top: 94px;
+  right: 22px;
+  left: 292px;
+  border-radius: var(--br-base);
+  background-color: var(--light-solid-color-extra-card-background);
+  height: 241px;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--mobile-h1-semibold-18-size);
+  color: var(--brand-color-400);
+  font-family: var(--dashboard-h4-regular-24);
+}

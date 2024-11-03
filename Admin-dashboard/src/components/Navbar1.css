@@ -1,0 +1,51 @@
+.search-icon {
+  width: 26px;
+  position: relative;
+  height: 26px;
+  display: none;
+}
+.transactions8 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.search8 {
+  align-self: stretch;
+  width: 171px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.avatar-icon7 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 38px;
+  object-fit: cover;
+}
+.action14,
+.navbar7 {
+  width: 91px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.navbar7 {
+  position: absolute;
+  top: 0;
+  left: 292px;
+  width: 1126px;
+  justify-content: center;
+  padding: var(--padding-5xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--dashboard-h4-regular-24-size);
+  color: var(--brand-color-400);
+  font-family: var(--dashboard-h4-regular-24);
+}

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --dashboard-h4-regular-24: Poppins;
+  --light-basic-typography-paragraph-small: "Public Sans";
+
+  /* font sizes */
+  --dashboard-h4-regular-24-size: 24px;
+  --dashboard-h1-semibold-32-size: 32px;
+  --mobile-h1-semibold-22-size: 22px;
+  --dashboard-h6-regular-16-size: 16px;
+  --mobile-h1-semibold-18-size: 18px;
+  --mobile-h1-semibold-20-size: 20px;
+  --mobile-h6-regular-14-size: 14px;
+  --light-basic-typography-paragraph-small-size: 13px;
+  --mobile-h8-medium-12-size: 12px;
+  --light-basic-typography-paragraph-medium-size: 15px;
+
+  /* Colors */
+  --light-solid-color-extra-card-background: #fff;
+  --neutral-color-200: #fbfafa;
+  --brand-color-200: #0891b2;
+  --brand-color-300: #0e7490;
+  --brand-color-400: #083344;
+  --color-gray-100: #fafafa;
+  --neutral-color-300: #888;
+  --color-gray-200: #23272e;
+  --color-gray-300: rgba(35, 39, 46, 0.3);
+  --light-solid-color-primary-primary-500-base: #7367f0;
+  --light-opacity-color-primary-primary-16: rgba(115, 103, 240, 0.16);
+  --error-color-400: #ea5b5b;
+  --brand-color-100: #ebf4ff;
+  --color-aliceblue: #ebf0f6;
+  --color-aliceblue-100: rgba(235, 244, 255, 0.4);
+  --color-lightslategray: #8b909a;
+  --color-lavender: #e9e7fd;
+  --color-whitesmoke-100: #f8f9fa;
+  --color-whitesmoke-200: #f2f4f7;
+  --color-whitesmoke-300: #f2f4f6;
+  --color-whitesmoke-400: #f1f2f6;
+  --success-color-400: #2ed573;
+  --color-gainsboro-100: rgba(217, 217, 217, 0.5);
+  --color-mediumseagreen: #1eb564;
+  --color-gold: #ffc600;
+  --color-firebrick: #d02626;
+  --color-ghostwhite: #f1f2f7;
+  --brand-color-3001: #767b91;
+
+  /* Gaps */
+  --gap-13xl: 32px;
+  --gap-6xs: 7px;
+  --gap-8xs: 5px;
+  --gap-5xs: 8px;
+  --gap-101xl: 120px;
+  --gap-5xl: 24px;
+  --gap-3xs: 10px;
+  --gap-7xs: 6px;
+  --gap-9xs: 4px;
+  --gap-2xl: 21px;
+  --gap-base: 16px;
+  --gap-lg: 18px;
+  --gap-12xs: 1px;
+  --gap-xl: 20px;
+  --gap-11xs: 2px;
+  --gap-11xl: 30px;
+  --gap-10xs: 3px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-9xs: 4px;
+  --padding-13xl: 32px;
+  --padding-mini: 15px;
+  --padding-5xl: 24px;
+  --padding-sm: 14px;
+  --padding-lg: 18px;
+  --padding-xl: 20px;
+  --padding-smi: 13px;
+  --padding-6xs: 7px;
+  --padding-41xl: 60px;
+  --padding-mid: 17px;
+  --padding-61xl: 80px;
+  --padding-base-5: 16.5px;
+  --padding-4xs: 9px;
+  --padding-10xs: 3px;
+  --padding-7xs: 6px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+  --br-3xs: 10px;
+  --br-7xs: 6px;
+  --br-xl: 20px;
+  --br-mini: 15px;
+  --br-base: 16px;
+  --br-8xs: 5px;
+
+  /* Effects */
+  --light-gray-gray-sm: 0px 2px 4px rgba(165, 163, 174, 0.3);
+}

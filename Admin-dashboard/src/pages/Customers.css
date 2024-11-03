@@ -1,0 +1,83 @@
+.table-cell {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xl);
+}
+.name {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.table-header-row {
+  align-self: stretch;
+  border-bottom: 1px solid var(--brand-color-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl) 0 var(--padding-base);
+}
+.table {
+  position: absolute;
+  width: calc(100% - 312px);
+  top: 214px;
+  right: 20px;
+  left: 292px;
+  border-radius: var(--br-base);
+  background-color: var(--light-solid-color-extra-card-background);
+  height: 845px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text72 {
+  flex: 1;
+  position: relative;
+}
+.mingcutesearch-line-icon3 {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.form4,
+.form5 {
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form5 {
+  flex: 1;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  gap: var(--gap-9xs);
+}
+.form4 {
+  position: absolute;
+  top: 142px;
+  left: 304px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  background-color: var(--light-solid-color-extra-card-background);
+  width: 200px;
+  height: 40px;
+  justify-content: center;
+  font-size: var(--dashboard-h6-regular-16-size);
+}
+.customers {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--mobile-h6-regular-14-size);
+  color: var(--neutral-color-300);
+  font-family: var(--dashboard-h4-regular-24);
+}

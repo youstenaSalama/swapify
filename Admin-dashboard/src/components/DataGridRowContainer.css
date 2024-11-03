@@ -1,0 +1,94 @@
+.showing7 {
+  position: relative;
+  letter-spacing: 0.43px;
+  font-weight: 500;
+}
+.chevron-down-icon30 {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+.dropdown36,
+.dropdown37 {
+  display: flex;
+  flex-direction: row;
+}
+.dropdown37 {
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+  gap: var(--gap-7xs);
+}
+.dropdown36 {
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-lavender);
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--brand-color-400);
+}
+.pagination-text49,
+.showing-parent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.showing-parent4 {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.pagination-text49 {
+  align-self: stretch;
+  width: 28px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-400);
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  box-sizing: border-box;
+}
+.text192 {
+  position: relative;
+  line-height: 20px;
+}
+.pagination-text50,
+.pagination-text55 {
+  align-self: stretch;
+  width: 28px;
+  border-radius: var(--br-9xs);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  box-sizing: border-box;
+}
+.pagination-text50 {
+  box-shadow: var(--light-gray-gray-sm);
+  background-color: var(--brand-color-200);
+  display: flex;
+  flex-direction: row;
+  color: var(--light-solid-color-extra-card-background);
+}
+.pagination-text55 {
+  background-color: var(--color-ghostwhite);
+}
+.pagination-text55,
+.pagination7,
+.table-row109 {
+  display: flex;
+  flex-direction: row;
+}
+.pagination7 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  font-size: var(--light-basic-typography-paragraph-small-size);
+}
+.table-row109 {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-5xl);
+  text-align: left;
+  font-size: var(--light-basic-typography-paragraph-medium-size);
+  color: var(--neutral-color-300);
+  font-family: var(--light-basic-typography-paragraph-small);
+}
